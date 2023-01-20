@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--ACRESCENTAR ESSAS TRÊS LINHAS PARA FUNCIONAR BOOTSTRAP-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container"><!--COLOCAR TUDO DENTRO DO BODY DENTRO DESSA DIV, o BOOTSTRAP SÓ FUNCIONA
+SE TIVER TUDO DENTRO DELA-->
+
+          <section id="app">
+              <h1>Apps</h1>
+              <div class="line"></div>
+              <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe>
+              <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
+          </section>
+
+
+      <section id="game"><!-- PEDIR PRA APAGAR TODA SEÇÃO GAME QUE VAMOS FAZELA NOVAMENTE-->
+        <h2>Clique no jogo desejado para começar</h2>
+
+        <h5>Esses jogos foram criados no laboratório de jogos, clique no jogo para jogar</h5>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <center>
+            <!-- Navegar pelos slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <a href="https://studio.code.org/projects/gamelab/Sdt_OgR8VajkwZ9t45UeVtzMLGiyqhNFJexB9eCe480" target="_blank">
+                  <img src="game1.png">
+                </a>
+                <p>Car Racing</p>
+              </div>
+
+              <div class="item">
+                <a href="https://studio.code.org/projects/gamelab/N25kriFEAiBTZwfbYpDjc_qryNjSBhYW-3fOuYRt_SI" target="_blank">
+                  <img src="game2.png">
+                </a>
+                  <p>Be in space</p>
+                </div>
+
+                <div class="item">
+                  <a href="https://studio.code.org/projects/gamelab/1Bb49Tb4oOzeKIGy6XD12WwD2gvq5zo63U1aex_ZXa4" target="_blank">
+                    <img src="game3.png">
+                  </a>
+                    <p>Jogo Maluco</p>
+                  </div>
+            
+            </div>
+
+            <!-- CONTROLES ESQUERDA E DIREITA -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+          </center>
+          </div><!-- ATÉ AQUI O QUE ELE VAI FAZER DO ZERO-->
+        </section>
+        <section id="Chatbot">
+        <h1>Chat Bot</h1>
+        <div class="line"></div>
+        <iframe
+            allow="microphone;"
+            width="350px"
+            height="500px"
+            src="https://console.dialogflow.com/api-client/demo/embedded/cc7bd157-1232-4fc0-a775-18a333539af0">
+        </iframe>
+      </section>
+
+</div>
+
+</body>
+</html>
